@@ -63,7 +63,7 @@ const WeatherData = () => {
     const fetchMyWeatherData = async () => {
         // Async storage
         let myCity = await getData('city');
-        let cityName = 'Bangui';
+        let cityName = 'Paris';
         if (myCity) cityName = myCity;
 
         fetchWeatherForecast({
